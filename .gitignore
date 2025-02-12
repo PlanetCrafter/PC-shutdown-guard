@@ -1,32 +1,61 @@
-# Prerequisites
-*.d
+# Build files
+/build/
+/bin/
+/obj/
+/out/
 
-# Compiled Object files
-*.slo
-*.lo
+# IDE/Editor specific
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion/JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.opensdf
+*.sdf
+*.vc.db
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*.swp
+
+# Compiled object files
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.exe
 *.a
 *.lib
 
-# Executables
-*.exe
+# Logs and debugging
+*.log
+*.cache
+*.pid
+*.dmp
+*.stackdump
+
+# Dependency files
+*.d
+*.dep
+
+# Generated files
 *.out
-*.app
+*.gch
+*.class
+
+# Package managers
+.vcpkg/
+conanbuildinfo.*
